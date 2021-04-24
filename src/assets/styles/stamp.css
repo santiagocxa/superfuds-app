@@ -1,0 +1,21 @@
+.stamp-image-tooltip {
+  margin-top: 10px;
+}
+
+.stamp-image-tooltip-text {
+  display: none;
+  width: 89px;
+  background-color: #ede8e8;
+  color: #ce0e0e;
+  text-align: left;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+  position: absolute;
+  margin-left: 35px;
+  z-index: 1;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 20%);
+}
+
+.stamp-image-tooltip:hover .stamp-image-tooltip-text {
+  display: block;
+}

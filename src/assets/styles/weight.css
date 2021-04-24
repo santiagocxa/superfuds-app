@@ -1,0 +1,20 @@
+.weight {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.weight h3 {
+  color: #25c16a;
+}
+
+.weight p {
+  background: #25c16a;
+  width: 25%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}

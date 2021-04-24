@@ -1,0 +1,11 @@
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.price strong {
+  color: var(--primary-green);
+  font-size: 1.5rem;
+}
+
