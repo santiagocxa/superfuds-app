@@ -1,10 +1,26 @@
 import React from 'react';
+import { connect } from 'react-redux'
+
+
 import Product from '../components/product'
 
-const App = () => {
+const App = ({ products, car }) => {
+  console.log( products )
+  console.log(car)
   return (
-    <Product/>
+    <>
+      {products.map(item => 
+        <Product key={item.id} {...item} />
+      )}
+    </>
   );
 };
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    products: state.products,
+    car: state.car,
+  }
+}
+
+export default connect(mapStateToProps, null) (App)

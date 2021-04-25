@@ -2,12 +2,12 @@ import React from 'react';
 import '../assets/styles/stamp.css'
 
 
-const Stamp = ({description}) => {
+const Stamp = ({ name, image}) => {
   return (
     <div className="stamp-image-tooltip">
-      <img src={description.image} alt={description.name} />
+      <img src={image} alt={name} />
       <div className='stamp-image-tooltip-text'>
-        <strong>Producto </strong>{description.name}
+        <strong>Producto: </strong>{name}
       </div>
     </div>
   );

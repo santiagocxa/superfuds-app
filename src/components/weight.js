@@ -1,10 +1,10 @@
 import React from 'react'
 import '../assets/styles/weight.css'
 
-const Weight = ()=> (
+const Weight = ({ weight })=> (
   <div className='weight'>
     <h3>SuperFuds</h3>
-    <p>250 gr</p>
+    <p>{weight}</p>
   </div>
 )
 

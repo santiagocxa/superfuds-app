@@ -1,12 +1,12 @@
 import React from 'react';
 import '../assets/styles/price.css'
 
-const Price = () => {
-  let priceProduct = '5000';
+const Price = ({ price }) => {
+   
   return (
     <div className='price'>
       <strong>$</strong>
-      {Intl.NumberFormat().format(priceProduct)}
+      {Intl.NumberFormat().format(price)}
     </div>
   );
 };

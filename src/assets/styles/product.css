@@ -52,3 +52,21 @@
   display: block;
   transition: 0.5s;
 }
+
+.botton-add-car {
+  display: none;
+  background: var(--primary-green);
+  width: calc(100% + 20px);
+  height: 40px;
+  margin-left: -10px;
+}
+
+.botton-add-car p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 100%;
+}
