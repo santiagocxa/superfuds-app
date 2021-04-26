@@ -1,13 +1,14 @@
 import React from 'react';
-import '../assets/styles/stamp.css'
 
+import '../assets/styles/stamp.css';
 
-const Stamp = ({ name, image}) => {
+const Stamp = ({ name, image }) => {
   return (
-    <div className="stamp-image-tooltip">
+    <div className='stamp-image-tooltip'>
       <img src={image} alt={name} />
       <div className='stamp-image-tooltip-text'>
-        <strong>Producto: </strong>{name}
+        <strong>Producto: </strong>
+        <p>{name}</p>
       </div>
     </div>
   );

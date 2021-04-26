@@ -1,0 +1,24 @@
+.units {
+  display:  flex;
+  flex-wrap: wrap;
+  width: 30%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;}
+
+.units-change {
+  border: solid 1px var(--primary-green);
+  color: var(--primary-green);
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.units-count {
+  font-weight: bold;
+  font-size: 1.5rem;
+}

@@ -1,8 +1,7 @@
 import React from 'react';
-import '../assets/styles/price.css'
+import '../assets/styles/price.css';
 
 const Price = ({ price }) => {
-   
   return (
     <div className='price'>
       <strong>$</strong>

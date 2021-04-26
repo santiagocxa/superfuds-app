@@ -1,26 +1,25 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
+import Header from '../components/header';
+import Carousel from '../components/carousel';
+import Car from '../components/car';
 
-
-import Product from '../components/product'
-
-const App = ({ products, car }) => {
-  console.log( products )
-  console.log(car)
+const App = ({ products, car, countItem }) => {
   return (
     <>
-      {products.map(item => 
-        <Product key={item.id} {...item} />
-      )}
+      <Header />
+      <Carousel products={products} />
+      <Car car={car} countItem={countItem} />
     </>
   );
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     products: state.products,
     car: state.car,
-  }
-}
+    countItem: state.countItem,
+  };
+};
 
-export default connect(mapStateToProps, null) (App)
+export default connect(mapStateToProps, null)(App);

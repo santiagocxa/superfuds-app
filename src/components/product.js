@@ -1,17 +1,15 @@
 import React from 'react';
-import { connect } from 'react-redux'
-import { addCar } from '../actions'
+import { connect } from 'react-redux';
+import { addCar } from '../actions';
 import Stamp from './stamp';
-import Weight from './weight';
-import Price from './price';
 import '../assets/styles/product.css';
+import ProductDetails from './product-details';
 
 const Product = (props) => {
-  const {id, title, image, sellos, price_real, net_content, units_sf } = props;
-
+  const { id, title, image, sellos } = props;
   const handleSetCar = (id) => {
-    props.addCar(id)
-  }
+    props.addCar(id);
+  };
 
   return (
     <div className='product'>
@@ -25,15 +23,11 @@ const Product = (props) => {
           ))}
         </div>
       </div>
-      <Weight weight={net_content} />
-      <div className='product__title'>
-        <h1>{title}</h1>
-      </div>
-      <div className='product__amount'>
-        <Price price={price_real} />
-        <p>{` x ${units_sf} unids`}</p>
-      </div>
-      <div className='botton-add-car' onClick={() => handleSetCar(id)}>
+      <ProductDetails {...props} />
+      <div
+        className='botton-add-car'
+        onClick={() => handleSetCar(id)}
+      >
         <p>Agregar al carrito</p>
       </div>
     </div>
@@ -42,5 +36,5 @@ const Product = (props) => {
 
 const mapDispatchToProps = {
   addCar,
-}
-export default connect(null, mapDispatchToProps)(Product)
+};
+export default connect(null, mapDispatchToProps)(Product);

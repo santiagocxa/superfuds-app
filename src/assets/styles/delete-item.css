@@ -1,0 +1,13 @@
+.delete-item {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-item  img {
+  width: 80%;
+  height: 80%;
+  object-fit: scale-down;
+}

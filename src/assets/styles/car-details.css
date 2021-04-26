@@ -1,0 +1,51 @@
+.car-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 25%);
+  padding: 2%;
+  margin-top: 2%;
+  border-radius: 5px;
+  width: 99%;  
+}
+
+.car-details__description {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.car-details__description .product__title{
+  font-size: 1.5rem;
+  height: auto;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.car-details__description p {
+  width: 100%;
+}
+
+.car-details__description .weight {
+  margin: 0;
+  width: 100%;
+}
+
+.car-details__description .weight p {
+  width: 35%;
+}
+
+.car-details .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.car-details .price strong {
+  font-size: 1.5rem;
+}
+
