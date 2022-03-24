@@ -1,16 +1,10 @@
 import React from 'react';
-import Product from './product';
-
 import '../assets/styles/carousel.css';
 
-const Carousel = ({ products }) => (
+const Carousel = ({ children }) => (
   <>
     <div className='carousel'>
-      <div className='carousel__container'>
-        {products.map((item) => (
-          <Product key={item.id} {...item} />
-        ))}
-      </div>
+      <div className='carousel__container'>{children}</div>
     </div>
   </>
 );

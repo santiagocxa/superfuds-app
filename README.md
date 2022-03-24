@@ -1,5 +1,20 @@
-# Para iniciar la aplicacion solo son 2 pasos 
+# React challenge
 
-### npm install
+*This is a technical test, which consists of creating a carousel of products and a shopping cart. 
+Redux is used for its state management.*
 
-### npm run start
+####  *To run follow the steps:*
+
+
+```sh
+git clone https://github.com/santiagocxa/superfuds-app.git
+
+cd superfuds-app
+
+npm install
+
+npm run start
+
+```
+
+*To see it in production:*  https://santiagocxa.github.io/superfuds-app/

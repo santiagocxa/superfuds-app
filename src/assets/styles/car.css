@@ -65,17 +65,19 @@
 
 .car-content-image {
   position: absolute;
-  width: 150px;
   height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border: 1px solid var(--primary-green);
   border-radius: 5px;
-  top: 75px;
-  right: 5px;
+  top: 90px;
   background: white;
   cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  max-width: 150px;
+  right: 2%
 }
 
 .car-content-image:active {
@@ -87,10 +89,8 @@
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  border-radius: 50%;
   width: 30px;
   height: 30px;
-  border: 1px solid var(--primary-green);
   color: var(--primary-green);
 }
 
@@ -107,13 +107,6 @@
 @media only screen and (min-width: 768px) {
   .car h2{
     font-size: 2rem;
-  }
-  
-}
-
-@media only screen and (min-width: 1024px) {
-  .car-content-image {
-    right: 22px;
   }
   
 }

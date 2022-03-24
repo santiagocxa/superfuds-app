@@ -1,21 +1,22 @@
 .units {
-  display:  flex;
+  display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 20%;
   justify-content: space-around;
   align-items: center;
-  font-size: 1rem;}
+  font-size: 1rem;
+}
 
 .units-change {
-  border: solid 1px var(--primary-green);
   color: var(--primary-green);
   font-weight: bold;
-  width: 30px;
+ 
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .units-count {
