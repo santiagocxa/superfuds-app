@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/superfuds-app/static/css/main.fe9d4fbc.chunk.css",
+    "main.js": "/superfuds-app/static/js/main.20c7055c.chunk.js",
+    "main.js.map": "/superfuds-app/static/js/main.20c7055c.chunk.js.map",
+    "runtime-main.js": "/superfuds-app/static/js/runtime-main.065f9a95.js",
+    "runtime-main.js.map": "/superfuds-app/static/js/runtime-main.065f9a95.js.map",
+    "static/js/2.d05b5494.chunk.js": "/superfuds-app/static/js/2.d05b5494.chunk.js",
+    "static/js/2.d05b5494.chunk.js.map": "/superfuds-app/static/js/2.d05b5494.chunk.js.map",
+    "static/js/3.5ee6f86c.chunk.js": "/superfuds-app/static/js/3.5ee6f86c.chunk.js",
+    "static/js/3.5ee6f86c.chunk.js.map": "/superfuds-app/static/js/3.5ee6f86c.chunk.js.map",
+    "index.html": "/superfuds-app/index.html",
+    "static/css/main.fe9d4fbc.chunk.css.map": "/superfuds-app/static/css/main.fe9d4fbc.chunk.css.map",
+    "static/js/2.d05b5494.chunk.js.LICENSE.txt": "/superfuds-app/static/js/2.d05b5494.chunk.js.LICENSE.txt",
+    "static/media/logo.6a305124.svg": "/superfuds-app/static/media/logo.6a305124.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.065f9a95.js",
+    "static/js/2.d05b5494.chunk.js",
+    "static/css/main.fe9d4fbc.chunk.css",
+    "static/js/main.20c7055c.chunk.js"
+  ]
+}
