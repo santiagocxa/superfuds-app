@@ -7,7 +7,7 @@ const ProductDetails = (props) => {
   return (
     <div className='product__details'>
       <Weight weight={net_content} />
-      <h1 className='product__title'>{title}</h1>
+      <h1 className='product__title'>{title.substr(0, 50)}</h1>
       <div className='product__amount'>
         <Price price={price_real} />
         <p>{` x ${units_sf} unids`}</p>

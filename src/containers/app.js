@@ -3,12 +3,17 @@ import { connect } from 'react-redux';
 import Header from '../components/header';
 import Carousel from '../components/carousel';
 import Car from '../components/car';
+import Product from '../components/product';
 
 const App = ({ products, car, countItem }) => {
   return (
     <>
       <Header />
-      <Carousel products={products} />
+      <Carousel>
+        {products.map((item) => (
+          <Product key={item.id} {...item} />
+        ))}
+      </Carousel>
       <Car car={car} countItem={countItem} />
     </>
   );

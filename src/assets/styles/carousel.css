@@ -1,7 +1,22 @@
 .carousel {
-  overflow: scroll;
-  width: 100%;
+  overflow-x: scroll;
+  width: 96%;
   position: relative;
+  left: 2%;
+}
+
+.carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
 }
 
 .carousel__container {
@@ -10,4 +25,3 @@
   margin-top: 100px;
   padding-bottom: 10px;
 }
-

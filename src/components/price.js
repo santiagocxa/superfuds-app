@@ -5,7 +5,7 @@ const Price = ({ price }) => {
   return (
     <div className='price'>
       <strong>$</strong>
-      {Intl.NumberFormat().format(price)}
+      {Intl.NumberFormat('en-IN').format(price)}
     </div>
   );
 };
